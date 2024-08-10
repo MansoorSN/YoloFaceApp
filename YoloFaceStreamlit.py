@@ -57,7 +57,7 @@ if __name__ == '__main__':
     st.write("please upload a vido in mp4 format")
     if upload_file is not None:
     
-        st.session_state.last_uploaded_file = upload_file.name
+       # st.session_state.last_uploaded_file = upload_file.name
         start_time=time.time()
 
         st.write(f"file name : {upload_file.name}")
